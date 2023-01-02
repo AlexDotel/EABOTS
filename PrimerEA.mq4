@@ -39,6 +39,7 @@
    
    bool FiltroHorario(){
       if(Hour() >= 8 && Hour() <= 12){
+      //if(Hour() >= 8){
          return true;
       }else{
          return false;
